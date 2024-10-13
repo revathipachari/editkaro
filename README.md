@@ -38,7 +38,7 @@ GitHub for version control and code management.
 Netlify/Vercel for deployment (optional based on deployment).
 
 5. Deployment Link
-GitHub Repository: https://github.com/your-username/editkaro-website
+GitHub Repository: https://github.com/revathipachari/editkaro-website
 Live Website (if deployed): Editkaro Website
 
 6. Conclusion
