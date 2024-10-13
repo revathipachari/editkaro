@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Filter Buttons */
+.filter-section {
+    text-align: center;
+    margin: 20px 0;
+}
+.filter-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.filter-btn:hover {
+    background-color: #555;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.portfolio-item {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.portfolio-item video {
+    width: 100%;
+    height: auto;
+}
+.portfolio-item h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: 90%;
+    }
+}
